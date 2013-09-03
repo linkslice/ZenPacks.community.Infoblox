@@ -1,0 +1,3 @@
+[zenoss.zenpacks]
+ZenPacks.community.Infoblox = ZenPacks.community.Infoblox
+

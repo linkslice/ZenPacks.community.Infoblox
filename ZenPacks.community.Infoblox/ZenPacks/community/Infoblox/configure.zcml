@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configure xmlns="http://namespaces.zope.org/zope">
+
+    <adapter
+            provides=".interfaces.IInfobloxDeviceInfo"
+            for=".InfobloxDevice.InfobloxDevice"
+            factory=".info.InfobloxDeviceInfo"
+            />
+
+    <adapter
+            provides=".interfaces.IInfobloxDHCPInfo"
+            for=".InfobloxDHCP.InfobloxDHCP"
+            factory=".info.InfobloxDHCPInfo"
+            />
+
+    <include package=".browser"/>
+
+</configure>

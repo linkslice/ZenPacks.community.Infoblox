@@ -1,0 +1,5 @@
+productNames = (
+    'InfobloxDevice',
+    'InfobloxDNS',
+    'InfobloxDHCP',
+)
