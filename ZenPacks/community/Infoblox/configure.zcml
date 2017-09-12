@@ -13,6 +13,12 @@
             factory=".info.InfobloxDHCPInfo"
             />
 
+    <adapter
+            provides=".interfaces.IInfobloxDNSInfo"
+            for=".InfobloxDNS.InfobloxDNS"
+            factory=".info.InfobloxDNSInfo"
+            />
+
     <include package=".browser"/>
 
 </configure>

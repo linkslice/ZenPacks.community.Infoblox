@@ -107,7 +107,7 @@ ZC.InfobloxInfobloxDNSPanel = Ext.extend(ZC.ComponentGridPanel, {
                 {name: 'usesMonitorAttribute'},
                 {name: 'monitor'},
                 {name: 'monitored'},
-                {name: 'locking'},
+                {name: 'locking'}
             ],
             columns: [{
                 id: 'severity',
@@ -143,6 +143,6 @@ ZC.InfobloxInfobloxDNSPanel = Ext.extend(ZC.ComponentGridPanel, {
 });
 
 Ext.reg('InfobloxInfobloxDHCPPanel', ZC.InfobloxInfobloxDHCPPanel);
-Ext.reg('InfobloxInfobloxDHCPPanel', ZC.InfobloxInfobloxDNSPanel);
+Ext.reg('InfobloxInfobloxDNSPanel', ZC.InfobloxInfobloxDNSPanel);
 
 })();
