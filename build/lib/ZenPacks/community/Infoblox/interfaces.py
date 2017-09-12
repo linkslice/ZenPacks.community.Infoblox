@@ -9,4 +9,6 @@ class IInfobloxDeviceInfo(IDeviceInfo):
 class IInfobloxDHCPInfo(IComponentInfo):
     dhcp_netmask = schema.TextLine(title=_t('DHCP Netmask'))
     dhcp_used_percent = schema.TextLine(title=_t('DHCP Percent Used'))
-    
+
+class IInfobloxDNSInfo(IComponentInfo):
+    dns_fqdn = schema.TextLine(title=_t('DNS FQDN'))

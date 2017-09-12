@@ -7,9 +7,11 @@ from Products.ZenRelations.RelSchema import ToManyCont, ToOne
 class InfobloxDNS(DeviceComponent, ManagedEntity):
     meta_type = portal_type = 'InfobloxInfobloxDNS'
 
-#    _properties = ManagedEntity._properties + (
-#        {},
-#        )
+    dns_fqdn = None
+
+    _properties = ManagedEntity._properties + (
+        {'id': 'dns_fqdn', 'type': 'string'},
+        )
 
     _relations = ManagedEntity._relations + (
         ('bind_zone', ToOne(ToManyCont,
