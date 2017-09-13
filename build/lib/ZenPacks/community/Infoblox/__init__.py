@@ -1,5 +1,0 @@
-productNames = (
-    'InfobloxDevice',
-    'InfobloxDNS',
-    'InfobloxDHCP',
-)
